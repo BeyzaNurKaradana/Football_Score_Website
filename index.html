@@ -17,30 +17,31 @@
             <div class="row">
                 <div class="col" id="team1">
                     <h3>Takım A</h3>
-                    <h4>0</h4>
+                    <h4></h4>
                     <div class="buttons">
-                        <button class="increase-button">arttır</button>
-                        <button class="decrease-buttons">azalt</button>
+                        <button class="increase-button" onclick="increaseScore1()">
+                            arttır</button>
+                        <button class="decrease-button" onclick="decreaseScore1()">azalt</button>
                     </div>
-                    <div class="direct-score">
-                        <button>direkt ata</button>
+                    <div class="direct-score" >
+                        <button onclick="directAssign1()">direkt ata</button>
                     </div>
                     <div class="change-name">
-                        <button>isim değiştir</button>
+                        <button onclick="changeName1()">isim değiştir</button>
                     </div>
                 </div>
                 <div class="col" id="team2">
-                    <h3>Takım A</h3>
-                    <h4>0</h4>
+                    <h3>Takım B</h3>
+                    <h4></h4>
                     <div class="buttons">
-                        <button class="increase-button">arttır</button>
-                        <button class="decrease-buttons">azalt</button>
+                        <button class="increase-button" onclick="increaseScore2()">arttır</button>
+                        <button class="decrease-button" onclick="decreaseScore2()">azalt</button>
                     </div>
-                    <div class="direct-score">
-                        <button>direkt ata</button>
+                    <div class="direct-score" >
+                        <button onclick="directAssign2()">direkt ata</button>
                     </div>
                     <div class="change-name">
-                        <button>isim değiştir</button>
+                        <button onclick="changeName2()">isim değiştir</button>
                     </div>
                 </div>
             </div>
